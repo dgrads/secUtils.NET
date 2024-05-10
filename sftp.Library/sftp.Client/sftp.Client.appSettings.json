@@ -1,0 +1,21 @@
+{
+  "sftp": {
+    "Local":{
+      "localHost": "local.hostname.fqdn",
+      "localAdmin": "local-sftp-admin",
+      "localRole": "client?-OR-server?",
+      "localConfig": "path\\to\\LOCAL\\config\\file"
+    },
+    "Remote":{
+      "remoteHost": "remote.hostname.fqdn",
+      "remoteUser": "remote-sftp-admin",
+      "remoteRole": "client?-OR-server?",
+      "remoteConfig": "\\path\\to\\REMOTE\\config\\file"
+    },
+    "Keys":{
+      "pathPriv": "path\\to\\PRIVATE\\key.file",
+      "pathPub": "path\\to\\PRIVATE\\key.pub",
+      "pathAuthorized": "path\\to\\AUTHORIZED\\keys.file"
+    }
+  }
+}
